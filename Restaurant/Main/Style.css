@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "rubik";
+    src: url(Assets/fonts/Rubik-VariableFont_wght.ttf) format("ttf");
+}
+
+@font-face {
+    font-family: "sushi";
+    src: url(Assets/fonts/FATRIN\ Sushi\ DAY\ Demo.ttf);
+}
+
+body nav{
+ background-color: #000;
+}
+#navlogo{
+    width: 126px;
+    height: 96px;
+}
+
+#navlist{
+    display: flex;
+}
+
+.nav_a{
+    font-family: "rubik", sans-serif;
+    color: #FF5C00;
+    list-style: none;
+    text-decoration: none;
+    display: inline-flex;
+}
