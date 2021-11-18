@@ -8,16 +8,35 @@
     src: url(Assets/fonts/FATRIN\ Sushi\ DAY\ Demo.ttf);
 }
 
-body nav{
- background-color: #000;
+@font-face {
+    font-family: "peach";
+    src: url(Assets/fonts/PeachesForBreakfast-Regular.otf);
 }
+
+nav{
+ background-color: #000;
+left: 0;
+top: 0;
+ display: grid;
+ grid-template-columns: 30% 70%;
+ position: fixed;
+ height: 88px;
+ width: 100%;
+}
+
 #navlogo{
     width: 126px;
     height: 96px;
+    margin-left: 60px;
 }
 
 #navlist{
     display: flex;
+    margin: 9px;
+    grid-row-start: 1;
+    grid-column-start: 2;
+    margin-top: 30px;
+    margin-left: 30px;
 }
 
 .nav_a{
@@ -25,5 +44,58 @@ body nav{
     color: #FF5C00;
     list-style: none;
     text-decoration: none;
-    display: inline-flex;
+    padding: 30px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+
+}
+
+
+/*Header*/
+
+header{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    background-repeat: no-repeat;
+    background-image: url("assets/images/suchiht/header.jpg");
+    background-size: 1280px 514px;
+    height: 514px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+header h1{
+    color: #fff;
+    font-family: "peach", sans-serif;
+    font-size: 144px;
+    margin: 0;
+    margin-top: 100px;
+    text-align: center;
+    grid-row-start: 2;
+}
+
+
+
+
+/*main starts here*/
+
+#wellcome{
+    background-image: url("assets/images/suchiht/elegant-black-background-vector-illustration-260nw-1432953857.jpg");
+    background-size: 1280px 700px;
+    background-repeat: no-repeat;
+    height: 700px;
+    
+}
+
+#wellcome h1{
+    color: #fff;
+    font-family: "peach", sans-serif;
+    font-size: 144px;
+    text-align: center;
+    margin: 0px;
+}
+
+#wellcome h1 span a{
+    color: #FF5C00;
 }
