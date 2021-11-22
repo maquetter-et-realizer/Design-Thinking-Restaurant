@@ -1,0 +1,308 @@
+* {
+    padding: 0 ;
+    margin:  0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "rubik";
+    src: url(Assets/fonts/Rubik-VariableFont_wght.ttf) format("ttf");
+}
+
+@font-face {
+    font-family: "sushi";
+    src: url(Assets/fonts/FATRIN\ Sushi\ DAY\ Demo.ttf);
+}
+
+@font-face {
+    font-family: "peach";
+    src: url(Assets/fonts/PeachesForBreakfast-Regular.otf);
+}
+
+@font-face {
+    font-family: "oxygen";
+    src: url(Assets/fonts/Oxygen-Regular.ttf);
+}
+
+nav{   
+background-color: #000;
+    left: 0;
+    top: 0;
+ display: grid;
+ grid-template-columns: 30% 70%;
+ position: fixed;
+ height: 88px;
+ width: 100%;
+}
+
+#navlogo{
+    width: 126px;
+    height: 96px;
+    margin-left: 60px;
+}
+
+#navlist{
+    display: flex;
+    margin: 9px;
+    grid-row-start: 1;
+    grid-column-start: 2;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.nav_a{
+    font-family: "rubik", sans-serif;
+    color: #FF5C00;
+    list-style: none;
+    text-decoration: none;
+    padding: 30px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+
+}
+
+.nav_a:hover{
+    color: #ff8f4e;
+}
+
+
+/*Header*/
+
+header{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    background-repeat: no-repeat;
+    background-image: url("assets/images/main-images/header.jpg");
+    background-size: 1280px 514px;
+    height: 514px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+header h1{
+    color: #fff;
+    font-family: "peach", sans-serif;
+    font-size: 144px;
+    margin: 0;
+    margin-top: 100px;
+    text-align: center;
+    grid-row-start: 2;
+    width: 100%;
+}
+
+
+
+
+.header-second-section {
+    width: 100%;
+    height: 514px;
+    background: url(assets/images/main-images/header.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+
+
+
+
+
+/*main starts here*/
+
+
+/* first div */
+#wellcome{
+    background-image: url("assets/images/main-images/elegant-black-background-vector-illustration-260nw-1432953857.jpg");
+    background-size: 1280px 700px;
+    background-repeat: no-repeat;
+    height: 580px;
+    text-align: center;
+}
+
+#wellcome h1{
+    color: #fff;
+    font-family: "peach", sans-serif;
+    font-size: 144px;
+    text-align: center;
+    margin: 0px;
+}
+
+#wellcome h1 span a{
+    color: #FF5C00;
+    font-size: 144px;
+    text-decoration: none;
+}
+
+#wellcome h1 span a:hover{
+    color: #ff8f4e;
+}
+
+#wellcome p{
+    color: #fff;
+    text-align: center;
+    font-family: "oxygen", sans-serif;
+    margin: 40px;
+      
+}
+
+#wlcmBtn{
+    color: #FF5C00;
+    text-decoration: none;
+    font-family: "peach", sans-serif;
+    font-size: 80px;
+    padding: 20px;
+    border: solid 2px #fff;
+    border-radius: 10px;
+    margin: auto;
+    width: fit-content;
+    background: none;
+    cursor: pointer;
+    margin: 20px;
+    margin-top: 0;
+}
+
+#wlcmBtn:hover{
+    color: #ff8f4e;
+    background-color: #000;
+}
+
+
+
+/* second div */
+
+#gallery{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background: url(assets/images/main-images/elegant-black-background-vector-illustration-260nw-1432953857.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+img{
+    margin: auto;
+    display: block;
+}
+
+#gallery img{
+    object-fit: cover;
+}
+
+#left-section{
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+#right-section{
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+#gr1{
+    width: 622px;
+    height: fit-content;
+}
+
+#gr2{
+    width: 622px;
+    height: fit-content;
+}
+
+#gr3{
+    width: 622px;
+    height: fit-content;
+    object-fit: cover;
+
+}
+
+#gr4{
+    width: 622px;
+    height: fit-content;
+}
+
+#gr5{
+    width: 1220px;
+    height: 650px;
+    margin-right: 20px;
+}
+
+/* reservation */
+
+#reservation-btn{
+    background: url(assets/images/main-images/elegant-black-background-vector-illustration-260nw-1432953857.jpg) no-repeat center center;
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+
+}
+
+#reservation-btn button{
+    border: none;
+    background-color: #FF5C00;
+    color: #fff;
+    font-family: "peach", sans-serif;
+    font-size: 144px;
+    padding-right: 50px;
+    padding-left: 50px;
+    height: 180px;
+    margin-top: 100px;
+    width: fit-content;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#reservation-btn button:hover{
+    background-color: #ff8f4e;
+    color: #000;
+}
+
+/* Footer */
+
+footer{
+    height: 418px;
+    background-color: #000;
+    display: flex;
+    font-family: "rubik", sans-serif;
+    justify-content: space-around;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+footer li{
+    padding: 8px;
+}
+
+footer ul:first-child{
+     display: flex;
+     flex-direction: row;
+}
+
+footer ul div{
+height: fit-content;
+}
+
+footer ul div li{
+    width: fit-content;
+    padding: 0;
+    left: 0;
+}
+
+footer i{
+    color: #FF874B;
+    margin: 7px;
+}
+
+.footer-items{
+    color: #fff;
+    font-size: 24px;
+    list-style: none;
+}
+
+.footer-title{
+    text-decoration: underline #FF874B;
+    color: #fff;
+    font-family: "rubik", sans-serif;
+    font-size: 24px;
+    padding: 15px;
+    height: fit-content;
+}

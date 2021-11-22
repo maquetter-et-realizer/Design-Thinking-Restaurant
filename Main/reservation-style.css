@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin-bottom: 80px;
+}
+
+
+
+body{
+    background-image: url(back.jpg);
+}
+
+nav{
+    background-color: #000;
+   left: 0;
+   top: 0;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    position: fixed;
+    height: 70px;
+    width: 100%;
+   }
+   
+   #navlogo{
+       width: 126px;
+       height: 80px;
+       margin-left: 60px;
+   }
+   
+   #navlist{
+       display: flex;
+       margin-top: 30px;
+       margin-left: 400px;
+   }
+   
+   .nav_a{
+       font-family: "rubik", sans-serif;
+       color: #FF5C00;
+       list-style: none;
+       text-decoration: none;
+       padding: 30px;
+       font-weight: 400;
+       font-size: 20px;
+   
+   }
+  #aaaa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      margin-top: 20px;
+  }
+  .res{
+      margin-bottom: -10px;
+  }
+   .res{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FF5C00;
+    font-family: 'Peaches For Breakfast', serif;
+    font-size: 80px;
+    padding-top: 100px;
+    
+   }
+   .res2{
+       display: flex;
+       justify-content: center;
+        color: #FF5C00;
+        font-family: 'Peaches For Breakfast', serif;
+        font-size: 80px;
+       }
+
+   .inc{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    width: 350px;
+    margin-top: 20px;
+    background-color: transparent;
+    border: none;
+    border-color: rgba(255, 255, 255, 0.295);
+    border-bottom: 1px solid;
+}
+.lghda{
+    display: flex;
+    justify-content: center;
+}
+
+::placeholder{
+    color:gray;
+    font-size: 15px;
+    font-style: italic;
+    padding-left: 12px;
+}
+.ico{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#clock{
+
+}
+.btn{ 
+   margin-left: 180px;
+    border: none;
+    margin-top: 30px;
+   background-color: #FF5C00;
+   color: white;
+   cursor: pointer;
+   border-radius: 5px;
+   height: 45px;
+   width: 230px;
+   font-family: 'Peaches For Breakfast', serif;
+   font-size: 40px;
+
+}
+.btn2{
+    background-color: #FF5C00;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Peaches For Breakfast', serif;
+    margin-left: 50px;
+    border: none;
+    font-size: 30px;
+
+}
+
+
+.lghda input:last-child{
+    margin-top: 15px;
+}
+.dropDownInline {
+    width: 200px;
+    padding: 10px;
+}
+input[type=date] {
+  width: 200px;
+  height: 30px;
+  background-color: transparent;
+  border : none ;
+  border-color: rgba(255, 255, 255, 0.295);
+  border-bottom: 1px solid;
+  color: white;
+}
+.pm{
+        width: 200px;
+        height: 30px;
+        background-color: transparent;
+        border : none ;
+        border-color: rgba(255, 255, 255, 0.295);
+        border-bottom: 1px solid;
+        color: white;
+}
+
+select {
+    width: 100px;
+    height: 30px;
+    border : none ;
+}
+
+
+/* Footer */
+
+
+footer{
+    height: 418px;
+    background-color: #000;
+    display: flex;
+    font-family: "rubik", sans-serif;
+    justify-content: space-around;
+}
+
+footer ul{
+    display:    block;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+footer li{
+    padding: 8px;
+    width: fit-content;
+}
+
+
+footer i{
+    color: #FF874B;
+    margin: 7px;
+}
+
+
+.footer-items{
+    color: #fff;
+    font-size: 24px;
+    list-style: none;
+    margin-top: 50px;
+}
+
+.footer-title{
+    text-decoration: underline #FF874B;
+    color: #fff;
+    font-family: "rubik", sans-serif;
+    font-size: 24px;
+    padding: 15px;
+    height: fit-content;
+    width: fit-content;
+    text-align: center;
+}
