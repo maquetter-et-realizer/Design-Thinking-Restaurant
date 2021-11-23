@@ -220,3 +220,41 @@ footer i{
     width: fit-content;
     text-align: center;
 }
+
+
+@media screen and (max-width:450px) {
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .badro{
+        margin-left: 0px;
+    }
+
+    section .khaoula{
+        align-items: center;
+    }
+
+    .right h1{
+        margin-left: 0px;
+        font-size: 50px;
+        color: #FF5C00;
+        margin-top: 100px;
+        font-family: 'Peaches For Breakfast', sans-serif;
+    }
+
+    input .btn{
+        background-color: #FF5C00;
+        align-items: center;
+        margin: 0;
+    }
+
+    .left img{
+        display: none;
+    }
+
+    
+    }

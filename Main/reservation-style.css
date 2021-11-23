@@ -212,3 +212,12 @@ footer i{
     width: fit-content;
     text-align: center;
 }
+
+@media screen and (max-width:450px) {
+
+footer{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+}

@@ -254,55 +254,196 @@ img{
 
 /* Footer */
 
-footer{
-    height: 418px;
-    background-color: #000;
+main img{
     display: flex;
-    font-family: "rubik", sans-serif;
     justify-content: space-around;
+    margin-top: 200px;
+    margin: 20px;
+    width: 400px;
+}
+
+#top{
+   margin-top: 200px;
+}
+
+
+/* Footer */
+
+
+footer{
+   height: 418px;
+   background-color: #000;
+   display: flex;
+   font-family: "rubik", sans-serif;
+   justify-content: space-around;
 }
 
 footer ul{
-    display: flex;
-    flex-direction: column;
-    margin-top: 50px;
+   display:    block;
+   flex-direction: column;
+   margin-top: 50px;
 }
 
 footer li{
-    padding: 8px;
+   padding: 8px;
+   width: fit-content;
 }
 
-footer ul:first-child{
-     display: flex;
-     flex-direction: row;
-}
-
-footer ul div{
-height: fit-content;
-}
-
-footer ul div li{
-    width: fit-content;
-    padding: 0;
-    left: 0;
-}
 
 footer i{
-    color: #FF874B;
-    margin: 7px;
+   color: #FF874B;
+   margin: 7px;
 }
 
+
 .footer-items{
-    color: #fff;
-    font-size: 24px;
-    list-style: none;
+   color: #fff;
+   font-size: 24px;
+   list-style: none;
+   margin-top: 50px;
 }
 
 .footer-title{
-    text-decoration: underline #FF874B;
-    color: #fff;
-    font-family: "rubik", sans-serif;
-    font-size: 24px;
-    padding: 15px;
-    height: fit-content;
+   text-decoration: underline #FF874B;
+   color: #fff;
+   font-family: "rubik", sans-serif;
+   font-size: 24px;
+   padding: 15px;
+   height: fit-content;
+   width: fit-content;
+   text-align: center;
 }
+
+
+
+
+.icon{
+   display: none;
+}
+
+@media screen and (max-width:450px) {
+
+    
+    nav {
+        overflow: hidden;
+        position: relative;
+        height: 120px;
+      }
+      
+    
+      #navlist {
+        display: none;
+      }
+      
+      nav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    
+      }
+      
+      nav a.icon {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      
+        main img{
+            margin: 0px;
+            margin-left: 25px;
+            padding-bottom: 25px;
+            width: 400px;
+            }
+    
+        #navlogo{
+            width: 126px;
+            height: 96px;
+            margin-left: 0px;
+        }
+    
+    
+        main{
+            display: flex;
+            flex-direction: column;
+            background-size: 450px 1700px, 450px 1700px, 450px 1700px;
+            height: fit-content;
+    
+        }
+    
+        footer{
+            width: auto;
+            height: auto;
+            display: block;
+            padding: 15px;
+        }
+    
+        footer ul{
+            padding: 15px;
+        }
+    
+        .footer-items{
+            margin: 0;
+        }
+        #gallery{
+            width: fit-content;
+            height: fit-content;
+        }
+
+        header{
+
+            background-size: 450px 100%;
+            height: 514px;
+            width: 100%;
+            margin-top: 0px;
+        }
+
+        #reservation-btn{
+            height: 300px;
+            text-align: center;
+        
+        }
+        
+        #reservation-btn button{
+            font-size: 100px;
+            padding-right: 25px;
+            padding-left: 25px;
+            height: 180px;
+        }
+
+        #gr1{
+            width: 450px;
+            height: fit-content;
+        }
+        
+        #gr2{
+            width: 450px;
+            height: fit-content;
+        }
+        
+        #gr3{
+            width: 450px;
+            height: fit-content;
+            object-fit: cover;
+        
+        }
+        
+        #gr4{
+            width: 450px;
+            height: fit-content;
+        }
+        
+        #gr5{
+            width: 450px;
+            height: 300px;
+            margin-right: 20px;
+        }
+    
+    
+        
+    
+    
+        
+    }
+    

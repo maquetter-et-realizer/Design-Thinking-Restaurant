@@ -151,51 +151,60 @@ footer i{
 
 
 
+.icon{
+    display: none;
+}
 
 
 
-@media all and (max-width:450px) {
-    a{
-        width: fit-content;
-        height: fit-content;
-    }
 
+@media screen and (max-width:450px) {
+
+    
+nav {
+    overflow: hidden;
+    position: relative;
+    height: 120px;
+  }
+  
+
+  #navlist {
+    display: none;
+  }
+  
+  nav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+  }
+  
+  nav a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
     main img{
         margin: 0px;
         margin-left: 25px;
-        margin-bottom: 25px;
-    }
+        padding-bottom: 25px;
+        width: 400px;
+        }
 
     #navlogo{
         width: 126px;
         height: 96px;
         margin-left: 0px;
-        align-items: center;
-    }
-    
-    #menu{
-        display: block;
-        color: red;
-        height: fit-content;
-        width: fit-content;
-        background: none;
-        border: none;
     }
 
-    #menu i{
-        height: fit-content;
-        width: ;
-        position: absolute;
-        float: right;
-    }
-
-    #navlist{
-        display: none;
-    }
 
     main{
-        display: block;
-        background-size: auto, auto, auto;
+        display: flex;
+        flex-direction: column;
+        background-size: 450px 1700px, 450px 1700px, 450px 1700px;
         height: fit-content;
 
     }
@@ -214,6 +223,9 @@ footer i{
     .footer-items{
         margin: 0;
     }
+
+
+    
 
 
     
